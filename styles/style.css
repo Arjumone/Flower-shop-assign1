@@ -1,30 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Lato', sans-serif;
-    width: 1920px;
-height: 4867px;
+  
 }
+/* header{
+    width: 1920px;
+height: 850px;
+} */
 .header-container{
     display: flex;
+    justify-content: space-around;
     align-items: center;
+   
     background-color: rgb(241, 219, 214);
-    width: 1920px;
-    height: 850px;
-    gap: 50px;
-    padding-top: 40px;
+    height: 100vh;
+   
 }
 .header-content{
-    padding-left: 100px;
+    max-width: 500px;
 }
-.header-img{
-    padding-right: 100px;
-    width: 635px;
-height: 800px;
+.header-title{
+    font-size: 60px;
+
+font-weight: bold;
 
 }
 .header-description{
-    font-size: 18px;
-    font-style: normal;
+    font-size: 16px;
+    
     font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .header-btn{
     background-color:#E55473;
@@ -34,12 +43,99 @@ height: 800px;
     border: none;
     border-radius: 5px;
     }
+    .header-img{
+        
+        width: 300px;
+       margin-left: 150px;
+      
+    }
+    .feature-content{
+        width: 920px;
+        height: 100vh;
+        margin-left: 120px;
+    }
+    .feature{
+        text-align: center;
+        margin-top: 35px;
+    }
+    .feature-container{
+        display: flex;
+        margin: 50px;
+        gap: 10px;
+       
+        
+    }
+    .feature-title{
+        text-align: center;
+        
+        font-size: 20px;
+        
+        font-weight: 800;
+        
+    }
+    .feature-description{
+        text-align: center;
+        margin-top: 15px;
+        
+
+font-size: 15px;
+
+font-weight: 400;
+    }
+    .feature-img1{
+        
+        background-color: #f5d1d8;
+        border-top-left-radius: 200px;
+        border-top-right-radius: 200px;
+        padding: 20px 50px 0px;
+        width: 200px;
+height: 308px;
+text-align: center;
+}
+    .feature-img2{
+        
+        background-color: rgb(194, 234, 247);
+        border-top-left-radius: 200px;
+        border-top-right-radius: 200px;
+        padding: 20px 50px 0px;
+        width: 200px;
+        height: 308px;
+}
+    .feature-img3{
+        
+        background-color: #e5f0e9;
+        border-top-left-radius: 200px;
+        border-top-right-radius: 200px;
+        padding: 20px 50px 0px;
+        width: 200px;
+        height: 308px;
+}
+.anchor{
+    margin-left: 70px;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+.flower-section{
+    
+}
+.flower-container{
+    display: flex;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 80px 200px;
+    padding: 50px;
+    border-radius: 5px;
+   
+}
+
     .sell-content{
         display: flex;
-        width: 1922px;
-        height: 620px;
+        justify-content: space-around;
         align-items: center;
-        padding: 80px
+        padding: 80px;
+        gap: 20px;
+        background-color: #fbecef;
+        
         
         
     }
@@ -60,6 +156,8 @@ font-weight: 800;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
     }
     .sell-btn{
        
@@ -68,7 +166,11 @@ align-items: flex-start;
 gap: 5px;
 margin-left: 200px;
     }
-    .insta-title{
+    .insta-section{
+       
+    }
+    .insta-title{ 
+        margin-top: 80px;
         text-align: center;
     }
     .insta-description{
@@ -78,40 +180,36 @@ text-align: center;
 font-size: 18px;
 
 font-weight: 400;
-line-height: 30px;
+margin-top: 10px;
+margin-bottom: 30px;
+
     }
     .img-container{
         display: flex;
-        gap: 20px;
+        gap: 10px;
+        width: 200px;
+height: 250px;
+padding-left: 200px;
         
        
     }
     .deal-container{
-        background-image: url('');
+        background-image: url("");
+        text-align: center;
+        margin: 50px 200px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     text-align: center;
     background-color: black;
     color: white;
     padding: 50px 150px;
+    
+}
+.colour{
+    color:#e8375a ;
+
+}
+.footer-description{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
