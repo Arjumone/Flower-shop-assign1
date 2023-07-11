@@ -1,66 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    font-family: 'Lato', sans-serif;
-  }
-  header{
-    background-color: rgb(241, 219, 214);
-  }
-  .logo{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .logo-img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+      font-family: 'Lato', sans-serif;
+    }
+    header{
+      background-color: rgb(241, 219, 214);
+    }
+    .logo{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo-img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 150px;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        
+    }
+    li{
+        margin-left: 50px;
+        display: block;
+    }
+    li:hover{
+        background: #e8375a;
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+    .header-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 150px;
-}
-ul{
-    display: flex;
-    list-style: none;
     
-}
-li{
-    margin-left: 50px;
-    display: block;
-}
-li:hover{
-    background: #e8375a;
-    border-radius: 5px;
-    padding: 5px 10px;
-}
-.header-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   
-   
-    padding: 20px 150px 0px;   
-}
-.header-content{
-    max-width: 500px;
-}
-.header-title{
-    font-size: 60px;
-    font-weight: bold;
-}
-.header-description{
-    font-size: 12px;
-    font-weight: 400;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.header-btn{
+        padding: 20px 150px 0px;   
+    }
+    .header-content{
+        max-width: 500px;
+    }
+    .header-title{
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .header-description{
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .header-btn{
     background-color:#E55473;
     color: white;
     width: 140px;
@@ -195,6 +195,29 @@ li:hover{
     margin: 50px 200px;
     padding: 80px 100px;
     border-radius: 5px;   
+    }
+    .deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    }
+    input{
+        padding: 10px 80px 10px 20px;
+        width: 400px;
+        height: 20px;
+        border-radius: 5px;
+        border: none;
+        margin-right: 5px;
+     }
+    .deal-btn{
+        background-color:#E55473;
+        color: white;
+        width: 150px;
+height: 40px;
+        border: none;
+        border-radius: 5px;
     }
     footer{
     text-align: center;
