@@ -24,6 +24,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 20px 150px;
+        background: #ad6473;
     }
     ul{
         display: flex;
@@ -190,7 +191,7 @@
     padding-left: 200px;
     }
     .deal-container{
-    background-image: url("../Rectangle.png");
+    background-image: url("/assets/Rectangle.png");
     text-align: center;
     margin: 50px 200px;
     padding: 80px 100px;
