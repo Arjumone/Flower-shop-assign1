@@ -4,33 +4,58 @@
 }
 body{
     font-family: 'Lato', sans-serif;
-  
+  }
+  header{
+    background-color: rgb(241, 219, 214);
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    
 }
-/* header{
-    width: 1920px;
-height: 850px;
-} */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+li{
+    margin-left: 50px;
+    display: block;
+}
+li:hover{
+    background: #e8375a;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
 .header-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
    
-    background-color: rgb(241, 219, 214);
-    height: 100vh;
    
+    padding: 20px 150px 0px;   
 }
 .header-content{
     max-width: 500px;
 }
 .header-title{
     font-size: 60px;
-
-font-weight: bold;
-
+    font-weight: bold;
 }
 .header-description{
-    font-size: 16px;
-    
+    font-size: 12px;
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -44,172 +69,148 @@ font-weight: bold;
     border-radius: 5px;
     }
     .header-img{
-        
-        width: 300px;
-       margin-left: 150px;
-      
+    width: 300px;
+    margin-left: 150px;
+    display: block;
     }
     .feature-content{
-        width: 920px;
-        height: 100vh;
-        margin-left: 120px;
+    width: 920px;
+    height: 100vh;
+    margin-left: 120px;
     }
     .feature{
-        text-align: center;
-        margin-top: 35px;
+    text-align: center;
+    margin-top: 35px;
     }
     .feature-container{
-        display: flex;
-        margin: 50px;
-        gap: 10px;
-       
-        
+    display: flex;
+    margin: 50px;
+    gap: 10px;    
     }
     .feature-title{
-        text-align: center;
-        
-        font-size: 20px;
-        
-        font-weight: 800;
-        
+    font-size: 20px;
+    font-weight: 800;   
     }
     .feature-description{
-        text-align: center;
-        margin-top: 15px;
-        
-
-font-size: 15px;
-
-font-weight: 400;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
     }
     .feature-img1{
-        
-        background-color: #f5d1d8;
-        border-top-left-radius: 200px;
-        border-top-right-radius: 200px;
-        padding: 20px 50px 0px;
-        width: 200px;
-height: 308px;
-text-align: center;
-}
-    .feature-img2{
-        
-        background-color: rgb(194, 234, 247);
-        border-top-left-radius: 200px;
-        border-top-right-radius: 200px;
-        padding: 20px 50px 0px;
-        width: 200px;
-        height: 308px;
-}
-    .feature-img3{
-        
-        background-color: #e5f0e9;
-        border-top-left-radius: 200px;
-        border-top-right-radius: 200px;
-        padding: 20px 50px 0px;
-        width: 200px;
-        height: 308px;
-}
-.anchor{
+    background-color: #f5d1d8;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    padding: 20px 50px 0px;
+    width: 200px;
+    height: 308px;
+    text-align: center;
+    }
+    .feature-img2{   
+    background-color: rgb(194, 234, 247);
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    padding: 20px 50px 0px;
+    width: 200px;
+    height: 308px;
+    }
+    .feature-img3{    
+    background-color: #e5f0e9;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    padding: 20px 50px 0px;
+    width: 200px;
+    height: 308px;
+    }
+    .anchor{
     margin-left: 70px;
     margin-top: 20px;
     text-align: center;
     color: black;
-}
-.flower-section{
-    
-}
-.flower-container{
+    }
+    .flower-container{
     display: flex;
     background: rgba(39, 39, 39, 0.05);
-    margin: 80px 200px;
-    padding: 50px;
+    margin: 10px 200px 50px;
     border-radius: 5px;
-   
-}
-
+    gap: 20px;
+    padding: 50px 0px 50px 120px;  
+    }
+    .flower-title{
+    text-align: center;
+    justify-content: center;
+    }
     .sell-content{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 80px;
-        gap: 20px;
-        background-color: #fbecef;
-        
-        
-        
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+    gap: 20px;
+    background-color: #fbecef;   
     }
     .sell-container{
-        align-items: center;
-        padding-left: 80px;
+    align-items: center;
+    padding-left: 80px;
     }
     .sell-title{
-        color: #272727;
-
-font-size: 40px;
-
-font-weight: 800;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
     }
     .sell-description{
-        text-align: center;
-
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin-top: 10px;
-margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     }
-    .sell-btn{
-       
-padding: 20px 43px;
-align-items: flex-start;
-gap: 5px;
-margin-left: 200px;
-    }
-    .insta-section{
-       
+    .sell-btn{    
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 5px;
+    margin-left: 200px;
     }
     .insta-title{ 
-        margin-top: 80px;
-        text-align: center;
+    margin-top: 80px;
+    text-align: center;
     }
     .insta-description{
-        color: rgba(39, 39, 39, 0.60);
-text-align: center;
-
-font-size: 18px;
-
-font-weight: 400;
-margin-top: 10px;
-margin-bottom: 30px;
-
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 30px;
     }
     .img-container{
-        display: flex;
-        gap: 10px;
-        width: 200px;
-height: 250px;
-padding-left: 200px;
-        
-       
+    display: flex;
+    gap: 10px;
+    width: 200px;
+    height: 250px;
+    padding-left: 200px;
     }
     .deal-container{
-        background-image: url("");
-        text-align: center;
-        margin: 50px 200px;
+    background-image: url("/Rectangle\ 9.png");
+    text-align: center;
+    margin: 50px 200px;
+    padding: 80px 100px;
+    border-radius: 5px;   
     }
-footer{
+    footer{
     text-align: center;
     background-color: black;
     color: white;
-    padding: 50px 150px;
-    
-}
-.colour{
+    padding: 50px 150px;   
+    }
+    .colour{
     color:#e8375a ;
-
-}
-.footer-description{
+    }
+    .footer-description{
     margin-top: 15px;
     margin-bottom: 15px;
-}
+    }
+    small{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    }
